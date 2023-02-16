@@ -11392,7 +11392,7 @@ p {
 }
 
 .testimonial-card-title {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1300 - 300)));
 }
 
