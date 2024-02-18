@@ -11085,6 +11085,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-family: 'Baloo Paaji', cursive;
   color: #695aa6;
+  margin: 0;
 }
 
 .my-font {
@@ -11097,6 +11098,7 @@ p {
   opacity: 1;
   color: #111;
   letter-spacing: .6px;
+  margin: 0;
 }
 
 .xs-font {
@@ -11207,6 +11209,7 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 
 .portfolio-card .portfolio-card-img {
@@ -11411,6 +11414,9 @@ p {
   padding: 20px 20px 20px 60px;
   border-radius: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .testimonial-card-title {
