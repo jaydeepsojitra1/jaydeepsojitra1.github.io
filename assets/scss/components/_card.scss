@@ -4,11 +4,23 @@
 	border: 1px solid $border-color;
 	overflow: hidden;
 	border-radius: 3px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 	.body {
+
+		.icon {
+			height: 100px;
+			width: 100px;
+		}
 		padding: 10px;
 
 		img.icon {
+			height: 100px;
+			width: 100px;
 			margin-top: 40px;
 			width: 55px;
 			margin-bottom: 25px;

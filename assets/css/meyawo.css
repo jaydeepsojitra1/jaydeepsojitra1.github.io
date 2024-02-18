@@ -605,6 +605,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
   row-gap: 24px;
+  justify-content: center;
 }
 
 .no-gutters {
@@ -11034,6 +11035,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* contact section */
+
+#contact .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .list {
   list-style-type: none;
   padding-left: 0;
@@ -11138,6 +11146,11 @@ p {
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .service-card .body {
@@ -11150,6 +11163,8 @@ p {
   margin-bottom: 25px;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
+  height: 100px;
+  width: 100px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11196,6 +11211,12 @@ p {
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  height: 400px;
+}
+
+.portfolio-card .portfolio-card-img1 {
+  width: 100%;
+  height: 550px;
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -11389,6 +11410,7 @@ p {
   background: #fff;
   padding: 20px 20px 20px 60px;
   border-radius: 0;
+  width: 100%;
 }
 
 .testimonial-card-title {
@@ -11707,7 +11729,7 @@ pre .code {
 }
 
 .custom-navbar.affix {
-  background: #fff;
+  background: white;
   border-bottom: 1px solid rgba(222, 226, 230, 0.34);
 }
 
@@ -12178,6 +12200,8 @@ pre .code {
 }
 
 .about-img-holder .about-img {
+  height: 600px;
+  object-fit: cover;
   width: 100%;
   margin-bottom: 15px;
 }
