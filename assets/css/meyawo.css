@@ -207,6 +207,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  object-fit: contain;
 }
 
 svg {
@@ -11219,7 +11220,6 @@ p {
 
 .portfolio-card .portfolio-card-img1 {
   width: 100%;
-  height: 550px;
 }
 
 .portfolio-card .portfolio-card-overlay {
